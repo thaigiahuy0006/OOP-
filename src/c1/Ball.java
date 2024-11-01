@@ -1,3 +1,5 @@
+package c1;
+
 public class Ball {
     private float x;
     private float y;

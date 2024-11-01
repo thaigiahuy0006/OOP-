@@ -1,3 +1,5 @@
+package c1;
+
 public class TestRectangle {
     public static void main(String[] args) {
         Rectangle r1 = new Rectangle(1.2f, 3.4f);

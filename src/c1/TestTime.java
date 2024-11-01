@@ -1,3 +1,5 @@
+package c1;
+
 public class TestTime {
     public static void main(String[] args) {
         // Test constructors and toString()

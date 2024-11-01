@@ -1,3 +1,5 @@
+package c1;
+
 public class Rectangle
 {
     private float width, length;

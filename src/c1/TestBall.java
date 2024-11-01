@@ -1,3 +1,5 @@
+package c1;
+
 public class TestBall {
     public static void main(String[] args) {
         // Test constructor and toString()
