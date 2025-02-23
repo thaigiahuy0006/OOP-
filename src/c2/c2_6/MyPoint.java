@@ -32,12 +32,14 @@ public class MyPoint {
         return "(" + x + ", " + y + ")";
     }
     public double distance(int x, int y) {
-        return Math.sqrt(Math.pow(x - this.x, 2) + Math.pow(y - this.y, 2));
+        return Math.sqrt((this.x - x) * (this.x - x) + (this.y - y) * (this.y - y));
     }
+
     public double distance(MyPoint another) {
-        return Math.sqrt(Math.pow(x - another.x, 2) + Math.pow(y - another.y, 2));
+        return distance(another.x, another.y);
     }
+
     public double distance() {
-        return Math.sqrt(Math.pow(x - this.x, 2) + Math.pow(y - this.y, 2));
+        return distance(0, 0);
     }
 }
